@@ -38,9 +38,7 @@ from pick_place_env import *
 
 # Define and reset environment.
 config = {'pick':  ['yellow block', 'green block', 'blue block'],
-          'place': ['yellow bowl', 'green bowl', 'blue bowl']
-          }
-
+          'place': ['yellow bowl', 'green bowl', 'blue bowl']}
 
 np.random.seed(42)
 obs = env.reset(config)
